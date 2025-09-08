@@ -24,7 +24,7 @@ class Solution{
             return;
         }
 
-        reverseInorder(root.right, K);
+        reverseInorder(root.right, K); // here i call it for the right part first because I want to find the Kth LARGEST element, anf by doing reverse of inorder traversal we can get the largest elements first.
 
         count++;
         if(count == K){
