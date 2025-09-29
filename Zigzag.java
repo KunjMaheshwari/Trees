@@ -46,7 +46,7 @@ class Solution{
                     s1.push(curr.right);
                 }
                 if(curr.left != null){
-                    s1.push(curr.right);
+                    s1.push(curr.left);
                 }
             }
         }
